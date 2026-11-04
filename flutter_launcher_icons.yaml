@@ -1,0 +1,23 @@
+# 用 `dart run flutter_launcher_icons` 重新生成各平台启动图标
+# 图标源：assets/icon/app_icon.png（由 tool/prepare_icon.dart 从 logo_cropped.png 加工）
+flutter_launcher_icons:
+  image_path: "assets/icon/app_icon.png"
+
+  android: true
+  min_sdk_android: 21
+  adaptive_icon_background: "#0C1945"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+
+  ios: true
+  remove_alpha_ios: true
+
+  windows:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+    icon_size: 48
+
+  web:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+    background_color: "#0E1B47"
+    theme_color: "#2C3A8E"
