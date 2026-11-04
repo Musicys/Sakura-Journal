@@ -46,3 +46,6 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# 原始素材（第一版图标，已被 image.png 取代）
+logo_cropped.png
